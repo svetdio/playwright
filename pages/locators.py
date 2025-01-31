@@ -1,5 +1,4 @@
 class header:
-    og = "a.router-link-active.router-link-exact-active.brand.m-auto"
     coin = ".coin.flip-coin"
     balance = "#balance"
     refresh = "i.fa.fa-refresh.px-2"
@@ -17,9 +16,13 @@ class header:
     modalBody = ".modal-body"
     modalClose = ".ml-auto"
 
-
+class bar:
+    announce_bar = ".marquee_container"
+    announcement = "#marquee"
+    carousel = "#hero_carousel_home"
 
 class sidebar:
+    og = "a.brand.m-auto"
     home = "#home"
     live = "#live"
     slots = "#slots"
@@ -27,3 +30,14 @@ class sidebar:
     promo = "#promotion"
     history = "#promo_history"
     status = "#status"
+
+class homenav:
+    icon_nav = "#nav_section"
+
+    popular = "#nav_section > ul > li:nth-child(1)"
+    latest = "#nav_section > ul > li:nth-child(2)"
+    live = "#nav_section > ul > li:nth-child(3)"
+    slot = "#nav_section > ul > li:nth-child(4)"
+    sports = "#nav_section > ul > li:nth-child(5)"
+
+    section_title = ".heading-text.whitespace-nowrap"

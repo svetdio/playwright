@@ -10,17 +10,19 @@ from utils.config import VIEWPORT, HEADLESS, SLOW_MO
 @pytest.fixture(scope="function")
 def page():
     with sync_playwright() as p:
-        print("VISIBLE!!!")
         browser = p.chromium.launch(headless=HEADLESS, slow_mo=SLOW_MO)  
         context = browser.new_context(viewport=VIEWPORT)
         page = context.new_page()
 
+        page.add_style_tag(content="* { cursor: default !important; }")
+
         yield page
+
+        browser.close()
 
 
 @pytest.fixture(scope="function")
 def launch_lobby(page: Page):
-    print("LOGIN!!!")
     account = curl.account[0]
     username = account["username"]
     password = account["password"]

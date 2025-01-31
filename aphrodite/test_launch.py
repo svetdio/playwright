@@ -6,7 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import time
 from playwright.sync_api import Page, sync_playwright
 from utils import curl
-from pages.locators import sidebar, header
+from pages.locators import sidebar, header, bar, homenav
 from conftest import launch_lobby
 
 def test_launch_lobby(page):
@@ -43,6 +43,7 @@ def test_launch_lobby(page):
     else:
         print(f"Failed to launch lobby for {username}")
     
+    assert page.locator(sidebar.og).is_visible(), "OG Logo is not visible"
     assert page.locator(sidebar.home).is_visible(), "Home is not visible"
     assert page.locator(sidebar.live).is_visible(), "Live is not visible"
     assert page.locator(sidebar.slots).is_visible(), "Slots is not visible"
@@ -53,26 +54,9 @@ def test_launch_lobby(page):
     print("LOB-H-001, PASSED")
     print("LOB-H-002, PASSED")
 
-    page.locator(sidebar.home).click()
-    time.sleep(2)
-    page.locator(sidebar.live).click()
-    time.sleep(2)
-    page.locator(sidebar.slots).click()
-    time.sleep(2)
-    page.locator(sidebar.sports).click()
-    time.sleep(2)
-    page.locator(sidebar.promo).click()
-    time.sleep(2)
-    page.locator(sidebar.history).click()
-    time.sleep(2)
-    page.locator(sidebar.status).click()
-    time.sleep(2)
-
 
 def test_header(page, launch_lobby: Page):
     page = launch_lobby
-
-    time.sleep(5)
 
     account = curl.account[0]
     username = account["username"]
@@ -80,13 +64,13 @@ def test_header(page, launch_lobby: Page):
 
     curl.get_token_and_launch_game(username, password)
 
+    time.sleep(2)
     username = page.locator(f"text=grpdevcny{username}!")
     if username.is_visible():
         print("Username is visible")
     else:
         print("Username is not visible")
     
-    assert page.locator(header.og).is_visible(), "OG Logo is not visible"
     assert page.locator(header.coin).is_visible(), "Coin is not visible"
     assert page.locator(header.balance).is_visible(), "Balance is not visible"
     assert page.locator(header.refresh).is_visible(), "Refresh is not visible"
@@ -119,7 +103,7 @@ def test_header(page, launch_lobby: Page):
     time.sleep(1)
     lang = page.get_attribute("html", "lang")
     if lang and not lang.startswith("en"):
-        print("The page is not in English!")
+        print("The page is not in English.")
     else:
         print("The page is in English.")
     page.locator(header.modalClose).click()
@@ -135,6 +119,121 @@ def test_header(page, launch_lobby: Page):
         print("The page is in English.")
     page.locator(header.modalClose).click()
     print("LOB-H-010, PASSED")
+
+
+def test_sidebar(page, launch_lobby: Page):
+    page = launch_lobby
+
+    time.sleep(2)
+    assert page.locator(sidebar.og).is_visible(), "OG Logo is not visible"
+    assert page.locator(sidebar.home).is_visible(), "Home is not visible"
+    assert page.locator(sidebar.live).is_visible(), "Live is not visible"
+    assert page.locator(sidebar.slots).is_visible(), "Slots is not visible"
+    assert page.locator(sidebar.sports).is_visible(), "Sports is not visible"
+    assert page.locator(sidebar.promo).is_visible(), "Promo is not visible"
+    assert page.locator(sidebar.history).is_visible(), "History is not visible"
+    assert page.locator(sidebar.status).is_visible(), "Status is not visible"
+    print("LOB-H-011, PASSED")
+
+    page.locator(sidebar.slots).click()
+    page.locator(sidebar.og).click()
+    time.sleep(.5)
+    print("LOB-H-012, PASSED")
+    page.locator(sidebar.home).click()
+    time.sleep(.5)
+    print("LOB-H-013, PASSED")
+    page.locator(sidebar.live).click()
+    time.sleep(.5)
+    print("LOB-H-014, PASSED")
+    page.locator(sidebar.slots).click()
+    time.sleep(.5)
+    print("LOB-H-015, PASSED")
+    page.locator(sidebar.sports).click()
+    time.sleep(.5)
+    print("LOB-H-016, PASSED")
+    page.locator(sidebar.promo).click()
+    time.sleep(.5)
+    print("LOB-H-017, PASSED")
+    page.locator(sidebar.history).click()
+    time.sleep(.5)
+    print("LOB-H-018, PASSED")
+    page.locator(sidebar.status).click()
+    time.sleep(.5)
+    print("LOB-H-019, PASSED")
+    
+
+def test_announcement_bar(page, launch_lobby: Page):
+    page = launch_lobby
+
+    time.sleep(2)
+
+    page.locator(bar.announce_bar).is_visible(), "Announcement bar is not visible"
+    time.sleep(.5)
+    print("LOB-H-020, PASSED")
+    page.locator(bar.announcement).hover(force=True)
+    time.sleep(1)
+    print("LOB-H-021, PASSED")
+
+def test_carousel_banner(page, launch_lobby: Page):
+    page = launch_lobby
+
+    time.sleep(2)
+
+    assert page.locator(bar.carousel).is_visible(), "Carousel is not visible"
+    print("LOB-H-022, PASSED")
+
+    carousel = page.locator(bar.carousel)
+    bounding_box = carousel.bounding_box()
+
+    page.mouse.move(bounding_box['x'] + bounding_box['width'] / 2, bounding_box['y'] + bounding_box['height'] / 2)  # Move to the element center
+    page.mouse.down()  # Hold mouse
+    page.mouse.move(bounding_box['x'] - 200, bounding_box['y'] + bounding_box['height'] / 2, steps=20)  # Swipe left
+    page.mouse.up()  # Release mouse
+    print("LOB-H-023, PASSED")
+
+    time.sleep(1)
+
+    # Perform swipe right (drag to the right)
+    page.mouse.move(bounding_box['x'] + bounding_box['width'] / 2, bounding_box['y'] + bounding_box['height'] / 2)  # Move to the element center
+    page.mouse.down()  # Hold mouse
+    page.mouse.move(bounding_box['x'] + bounding_box['width'] + 200, bounding_box['y'] + bounding_box['height'] / 2, steps=20)  # Swipe right
+    page.mouse.up()  # Release mouse
+    print("LOB-H-024, PASSED")
+
+
+def test_icon_nav(page, launch_lobby: Page):
+    page = launch_lobby
+
+    time.sleep(2)
+    assert page.locator(homenav.icon_nav).is_visible(), "Home navigation is not visible"
+    print("LOB-H-025, PASSED")
+
+    page.locator(homenav.popular, has_text="Popular").click()
+    assert page.locator(homenav.section_title, has_text="Popular Games").is_visible(), "Popular Games title header is not visible"
+    time.sleep(.5)
+    print("LOB-H-026, PASSED")
+    
+    page.locator(homenav.latest, has_text="Latest").click()
+    assert page.locator(homenav.section_title, has_text="Latest Games").is_visible(), "Latest Games title header is not visible"
+    time.sleep(.5)
+    print("LOB-H-027, PASSED")
+    
+    page.locator(homenav.live, has_text="Live").click()
+    assert page.locator(homenav.section_title, has_text="Live Games").is_visible(), "Live Games title header is not visible"
+    time.sleep(.5)
+    print("LOB-H-028, PASSED")
+
+    page.locator(homenav.slot, has_text="Slot").click()
+    assert page.locator(homenav.section_title, has_text="Slot Games").is_visible(), "Slot Games title header is not visible"
+    time.sleep(.5)
+    print("LOB-H-029, PASSED")
+
+    page.locator(homenav.sports, has_text="Sports").click()
+    assert page.locator(homenav.section_title, has_text="Sports").is_visible(), "Sports title header is not visible"
+    time.sleep(.5)
+    print("LOB-H-030, PASSED")
+
+
 
 
 
