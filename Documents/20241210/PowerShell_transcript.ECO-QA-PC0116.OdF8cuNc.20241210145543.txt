@@ -1,0 +1,25 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20241210145544
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -c [void] ''
+Process ID: 9564
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>[void] ''
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20241210145544
+**********************

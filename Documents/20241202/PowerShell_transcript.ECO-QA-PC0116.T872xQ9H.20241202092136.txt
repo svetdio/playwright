@@ -1,0 +1,46 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20241202092136
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 5196
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+PS>TerminatingError(Get-PSReadLineKeyHandler): "A parameter cannot be found that matches parameter name 'Chord'."
+PS>TerminatingError(Get-PSReadLineKeyHandler): "A parameter cannot be found that matches parameter name 'Chord'."
+PS>TerminatingError(Get-PSReadLineKeyHandler): "A parameter cannot be found that matches parameter name 'Chord'."
+PS>TerminatingError(Get-PSReadLineKeyHandler): "A parameter cannot be found that matches parameter name 'Chord'."
+]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5ctestPS C:\Users\IT-40178\Desktop\test> ]633;B
+PS>npm install cypress
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+npm notice
+npm notice New patch version of npm available! 10.9.0 -> 10.9.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.1
+npm notice To update run: npm install -g npm@10.9.1
+npm notice
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5ctestPS C:\Users\IT-40178\Desktop\test> ]633;B
+PS>npm audit fix
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5ctestPS C:\Users\IT-40178\Desktop\test> ]633;B
+PS>npm install -g npm@10.9.1
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5ctestPS C:\Users\IT-40178\Desktop\test> ]633;B
+PS>npx cypress open
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5ctestPS C:\Users\IT-40178\Desktop\test> ]633;B

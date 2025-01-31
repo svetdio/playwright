@@ -1,0 +1,448 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20241202132104
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 11040
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+PS>TerminatingError(Get-PSReadLineKeyHandler): "A parameter cannot be found that matches parameter name 'Chord'."
+PS>TerminatingError(Get-PSReadLineKeyHandler): "A parameter cannot be found that matches parameter name 'Chord'."
+PS>TerminatingError(Get-PSReadLineKeyHandler): "A parameter cannot be found that matches parameter name 'Chord'."
+PS>TerminatingError(Get-PSReadLineKeyHandler): "A parameter cannot be found that matches parameter name 'Chord'."
+]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>python -v
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>python --version
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>python --version
+**********************
+Windows PowerShell transcript start
+Start time: 20241202132205
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 11040
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>python --version
+**********************
+Windows PowerShell transcript start
+Start time: 20241202132209
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 11040
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>python --version
+**********************
+Windows PowerShell transcript start
+Start time: 20241202132210
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 11040
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>python --version
+**********************
+Windows PowerShell transcript start
+Start time: 20241202132216
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 11040
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>python --version
+**********************
+Windows PowerShell transcript start
+Start time: 20241202132218
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 11040
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>python --version
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>python --version
+**********************
+Windows PowerShell transcript start
+Start time: 20241202132241
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 11040
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>python --version
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>python --version
+**********************
+Windows PowerShell transcript start
+Start time: 20241202132258
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 11040
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>python3 --version
+
+**********************
+Windows PowerShell transcript start
+Start time: 20241202132308
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 11040
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'python3' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+python3 : The term 'python3' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python3 --version
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python3:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python3 : The term 'python3' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python3 --version
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python3:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python3 : The term 'python3' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python3 --version
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python3:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>where python
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>python --version
+**********************
+Windows PowerShell transcript start
+Start time: 20241202132314
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 11040
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ python --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>where python
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>where python
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>where python
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>where python
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B
+PS>where python
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestsamplePS C:\Users\IT-40178\Desktop\pytestsample> ]633;B

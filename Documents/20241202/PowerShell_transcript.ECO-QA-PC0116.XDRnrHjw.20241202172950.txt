@@ -1,0 +1,609 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20241202172950
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 4320
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+PS>TerminatingError(Get-PSReadLineKeyHandler): "A parameter cannot be found that matches parameter name 'Chord'."
+PS>TerminatingError(Get-PSReadLineKeyHandler): "A parameter cannot be found that matches parameter name 'Chord'."
+PS>TerminatingError(Get-PSReadLineKeyHandler): "A parameter cannot be found that matches parameter name 'Chord'."
+PS>TerminatingError(Get-PSReadLineKeyHandler): "A parameter cannot be found that matches parameter name 'Chord'."
+]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>python --version
+Python 3.13.0
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>install pytest
+**********************
+Windows PowerShell transcript start
+Start time: 20241202173015
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 4320
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'install' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+install : The term 'install' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ install pytest
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (install:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+install : The term 'install' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ install pytest
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (install:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+install : The term 'install' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ install pytest
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (install:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>pip list
+wsproto           1.2.0
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>pytest -vvvs
+**********************
+Windows PowerShell transcript start
+Start time: 20241202173032
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 4320
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest -vvvs
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest -vvvs
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest -vvvs
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>pip install pytest
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>c:\Users\IT-40178\Desktop\pytest\.venv\Scripts\python.exe -m pip install pytest
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>pip install selenium
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>-m pip install --upgrade pip
+**********************
+Windows PowerShell transcript start
+Start time: 20241202173220
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 4320
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term '-m' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+-m : The term '-m' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ -m pip install --upgrade pip
++ ~~
+    + CategoryInfo          : ObjectNotFound: (-m:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+-m : The term '-m' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ -m pip install --upgrade pip
++ ~~
+    + CategoryInfo          : ObjectNotFound: (-m:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+-m : The term '-m' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ -m pip install --upgrade pip
++ ~~
+    + CategoryInfo          : ObjectNotFound: (-m:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>-m pip instalk
+**********************
+Windows PowerShell transcript start
+Start time: 20241202173229
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 4320
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term '-m' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+-m : The term '-m' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ -m pip instalk
++ ~~
+    + CategoryInfo          : ObjectNotFound: (-m:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+-m : The term '-m' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ -m pip instalk
++ ~~
+    + CategoryInfo          : ObjectNotFound: (-m:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+-m : The term '-m' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ -m pip instalk
++ ~~
+    + CategoryInfo          : ObjectNotFound: (-m:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>pip
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>pip freeze
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>pytest -vvvs
+**********************
+Windows PowerShell transcript start
+Start time: 20241202173301
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 4320
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest -vvvs
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest -vvvs
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest -vvvs
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>pytest -vvvs
+**********************
+Windows PowerShell transcript start
+Start time: 20241202173310
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 4320
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest -vvvs
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest -vvvs
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest -vvvs
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>pip install
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>ls
+
+
+    Directory: C:\Users\IT-40178\Desktop\pytest
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         12/2/2024   5:28 PM                .pytest_cache
+d-----         12/2/2024   5:30 PM                .venv
+d-----         12/2/2024   5:28 PM                __pycache__
+------        11/27/2024   6:24 PM           5206 hera-test_.py
+------        11/27/2024   1:04 PM           1857 test_.py
+
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>rmdir /s /q
+>> TerminatingError(Remove-Item): "A positional parameter cannot be found that accepts argument '/q'."
+**********************
+Windows PowerShell transcript start
+Start time: 20241204091606
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 4320
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="A positional parameter cannot be found that accepts argument '/q'."
+Remove-Item : A positional parameter cannot be found that accepts argument '/q'.
+At line:1 char:1
++ rmdir /s /q
++ ~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+Remove-Item : A positional parameter cannot be found that accepts argument '/q'.
+At line:1 char:1
++ rmdir /s /q
++ ~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+Remove-Item : A positional parameter cannot be found that accepts argument '/q'.
+At line:1 char:1
++ rmdir /s /q
++ ~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>pytest -vvvs
+**********************
+Windows PowerShell transcript start
+Start time: 20241204091617
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 4320
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest -vvvs
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest -vvvs
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest -vvvs
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>virtualenv venv
+**********************
+Windows PowerShell transcript start
+Start time: 20241204091702
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 4320
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'virtualenv' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+virtualenv : The term 'virtualenv' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ virtualenv venv
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (virtualenv:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+virtualenv : The term 'virtualenv' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ virtualenv venv
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (virtualenv:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+virtualenv : The term 'virtualenv' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At line:1 char:1
++ virtualenv venv
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (virtualenv:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>source venv/scripts/activate]
+**********************
+Windows PowerShell transcript start
+Start time: 20241204091712
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 4320
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'source' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+source : The term 'source' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ source venv/scripts/activate]
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (source:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+source : The term 'source' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ source venv/scripts/activate]
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (source:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+source : The term 'source' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ source venv/scripts/activate]
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (source:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>ls
+
+
+    Directory: C:\Users\IT-40178\Desktop\pytest
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         12/2/2024   5:28 PM                .pytest_cache
+d-----         12/2/2024   5:30 PM                .venv
+d-----         12/2/2024   5:28 PM                __pycache__
+------        11/27/2024   6:24 PM           5206 hera-test_.py
+------        11/27/2024   1:04 PM           1857 test_.py
+
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>pytest test_.py
+**********************
+Windows PowerShell transcript start
+Start time: 20241204091750
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 4320
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest test_.py
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest test_.py
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest test_.py
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>pip show pytest
+
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>pytest --version
+
+**********************
+Windows PowerShell transcript start
+Start time: 20241204091838
+Username: IT-AMERICANO\IT-40178
+RunAs User: IT-AMERICANO\IT-40178
+Configuration Name: 
+Machine: ECO-QA-PC0116 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IT-40178\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 4320
+PSVersion: 5.1.19041.5198
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5198
+BuildVersion: 10.0.19041.5198
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytest --version
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>where python
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>where python
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
+PS>python -c "import sys; print(sys.executable)"
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cIT-40178\x5cDesktop\x5cpytestPS C:\Users\IT-40178\Desktop\pytest> ]633;B
