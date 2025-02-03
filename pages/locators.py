@@ -41,3 +41,7 @@ class homenav:
     sports = "#nav_section > ul > li:nth-child(5)"
 
     section_title = ".heading-text.whitespace-nowrap"
+
+    playicon = ".play_icon"
+
+    popularGames = ".gridbox"
