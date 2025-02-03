@@ -135,31 +135,58 @@ def test_sidebar(page, launch_lobby: Page):
     assert page.locator(sidebar.status).is_visible(), "Status is not visible"
     print("LOB-H-011, PASSED")
 
-    page.locator(sidebar.slots).click()
-    page.locator(sidebar.og).click()
-    time.sleep(.5)
-    print("LOB-H-012, PASSED")
-    page.locator(sidebar.home).click()
-    time.sleep(.5)
-    print("LOB-H-013, PASSED")
-    page.locator(sidebar.live).click()
-    time.sleep(.5)
-    print("LOB-H-014, PASSED")
-    page.locator(sidebar.slots).click()
-    time.sleep(.5)
-    print("LOB-H-015, PASSED")
-    page.locator(sidebar.sports).click()
-    time.sleep(.5)
-    print("LOB-H-016, PASSED")
-    page.locator(sidebar.promo).click()
-    time.sleep(.5)
-    print("LOB-H-017, PASSED")
-    page.locator(sidebar.history).click()
-    time.sleep(.5)
-    print("LOB-H-018, PASSED")
-    page.locator(sidebar.status).click()
-    time.sleep(.5)
-    print("LOB-H-019, PASSED")
+    sidebars = [
+        page.locator(sidebar.og),
+        page.locator(sidebar.home),
+        page.locator(sidebar.live),
+        page.locator(sidebar.slots),
+        page.locator(sidebar.sports),
+        page.locator(sidebar.promo),
+        page.locator(sidebar.history),
+        page.locator(sidebar.status),
+    ]
+
+    testIDs = [
+        '012',
+        '013',
+        '014',
+        '015',
+        '016',
+        '017',
+        '018',
+        '019',
+    ]
+
+    for sidenav, testID in zip(sidebars, testIDs):
+        sidenav.click()
+        time.sleep(0.5)
+        print(f"LOB-H-{testID}, PASSED")
+
+    # page.locator(sidebar.slots).click()
+    # page.locator(sidebar.og).click()
+    # time.sleep(.5)
+    # print("LOB-H-012, PASSED")
+    # page.locator(sidebar.home).click()
+    # time.sleep(.5)
+    # print("LOB-H-013, PASSED")
+    # page.locator(sidebar.live).click()
+    # time.sleep(.5)
+    # print("LOB-H-014, PASSED")
+    # page.locator(sidebar.slots).click()
+    # time.sleep(.5)
+    # print("LOB-H-015, PASSED")
+    # page.locator(sidebar.sports).click()
+    # time.sleep(.5)
+    # print("LOB-H-016, PASSED")
+    # page.locator(sidebar.promo).click()
+    # time.sleep(.5)
+    # print("LOB-H-017, PASSED")
+    # page.locator(sidebar.history).click()
+    # time.sleep(.5)
+    # print("LOB-H-018, PASSED")
+    # page.locator(sidebar.status).click()
+    # time.sleep(.5)
+    # print("LOB-H-019, PASSED")
     
 
 def test_announcement_bar(page, launch_lobby: Page):
@@ -243,6 +270,22 @@ def test_icon_nav(page, launch_lobby: Page):
 
         print(f"The heading '{tab.text_content()}' is visible.")
         print(f"LOB-H-{test_id}, PASSED")
+
+
+def test_popular_section(page, launch_lobby: Page):
+    page = launch_lobby
+    time.sleep(2)
+
+    page.locator(homenav.popular, has_text="Popular").click()
+    print("LOB-H-031, PASSED")
+
+    page.locator(homenav.popularGames).nth(1).hover(force=True)
+
+    playicon = page.locator(homenav.playicon)
+    playicon.wait_for(state="visible", timeout=5000)
+    playicon.click()
+
+
 
 
 
