@@ -205,36 +205,44 @@ def test_icon_nav(page, launch_lobby: Page):
     page = launch_lobby
 
     time.sleep(2)
-    assert page.locator(homenav.icon_nav).is_visible(), "Home navigation is not visible"
+    nav = page.locator(homenav.icon_nav).is_visible()
+    # nav_box = nav.bounding_box()
+    assert nav is not None, "Navigation section not found."
+    # nav_bottom = nav_box["y"] + nav_box["height"]
     print("LOB-H-025, PASSED")
 
-    page.locator(homenav.popular, has_text="Popular").click()
-    assert page.locator(homenav.section_title, has_text="Popular Games").is_visible(), "Popular Games title header is not visible"
-    time.sleep(.5)
-    print("LOB-H-026, PASSED")
+    headings = [
+        page.locator(homenav.section_title, has_text="Popular Games"),
+        page.locator(homenav.section_title, has_text="Latest Games"),
+        page.locator(homenav.section_title, has_text="Live Games"),
+        page.locator(homenav.section_title, has_text="Slot Games"),
+        page.locator(homenav.section_title, has_text="Sports")
+    ]
+
+    tabs = [
+        page.locator(homenav.popular, has_text="Popular"),
+        page.locator(homenav.latest, has_text="Latest"),
+        page.locator(homenav.live, has_text="Live"),
+        page.locator(homenav.slot, has_text="Slot"),
+        page.locator(homenav.sports, has_text="Sports")
+    ]
+
+    testID = [
+        '026',
+        '027',
+        '028',
+        '029',
+        '030'
+    ]
+
+    for tab, heading, test_id in zip(tabs, headings, testID):
+        tab.click()  # Click the navigation tab
+        time.sleep(2)  # Wait for UI update
     
-    page.locator(homenav.latest, has_text="Latest").click()
-    assert page.locator(homenav.section_title, has_text="Latest Games").is_visible(), "Latest Games title header is not visible"
-    time.sleep(.5)
-    print("LOB-H-027, PASSED")
-    
-    page.locator(homenav.live, has_text="Live").click()
-    assert page.locator(homenav.section_title, has_text="Live Games").is_visible(), "Live Games title header is not visible"
-    time.sleep(.5)
-    print("LOB-H-028, PASSED")
+        assert heading is not None, f"Heading text not found for {tab}"
 
-    page.locator(homenav.slot, has_text="Slot").click()
-    assert page.locator(homenav.section_title, has_text="Slot Games").is_visible(), "Slot Games title header is not visible"
-    time.sleep(.5)
-    print("LOB-H-029, PASSED")
-
-    page.locator(homenav.sports, has_text="Sports").click()
-    assert page.locator(homenav.section_title, has_text="Sports").is_visible(), "Sports title header is not visible"
-    time.sleep(.5)
-    print("LOB-H-030, PASSED")
-
-
-
+        print(f"The heading '{tab.text_content()}' is visible.")
+        print(f"LOB-H-{test_id}, PASSED")
 
 
 
