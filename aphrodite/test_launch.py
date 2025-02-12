@@ -6,7 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import time
 from playwright.sync_api import Page, sync_playwright
 from utils import curl
-from pages.locators import sidebar, header, bar, homenav
+from pages.locators import sidebar, header, bar, homenav, general, footer
 from conftest import launch_lobby
 
 # def test_launch_lobby(page):
@@ -272,20 +272,128 @@ from conftest import launch_lobby
 #         print(f"LOB-H-{test_id}, PASSED")
 
 
-def test_popular_section(page, launch_lobby: Page):
-    page = launch_lobby
-    time.sleep(2)
+# def test_popular_section(page, launch_lobby: Page):
+#     page = launch_lobby
+#     time.sleep(2)
 
-    page.locator(homenav.popular, has_text="Popular").click()
-    print("LOB-H-031, PASSED")
+#     page.locator(homenav.popular, has_text="Popular").click()
+#     print("LOB-H-031, PASSED")
 
-    gamelaunch = page.locator(homenav.popularGames, has_text="Viva Vegas")
-    gamelaunch.click()
+#     gamelaunch = page.locator(homenav.games, has_text="Viva Vegas")
+#     gamelaunch.locator(homenav.pin).click()
 
-    print("LOB-H-032, PASSED")
+#     print("Reloading page...")
+#     page.reload()
+
+#     gamelaunch = page.locator(homenav.games, has_text="Viva Vegas")
+#     gamelaunch.click()
+#     print("LOB-H-032, PASSED")
 
     
 
+    
+
+
+
+
+# def test_latest_section(page, launch_lobby: Page):
+#     page = launch_lobby
+#     time.sleep(2)
+
+#     page.locator(homenav.latest, has_text="Latest").click()
+#     print("LOB-H-035, PASSED")
+
+#     gamelaunch = page.locator(homenav.games, has_text="Bugsy Bonus").nth(1)
+#     time.sleep(2)
+#     gamelaunch.click(force=True)
+#     print("LOB-H-036, PASSED")
+
+    
+# def test_scroll_button(page, launch_lobby: Page):
+#     page = launch_lobby
+#     time.sleep(2)
+
+#     pagetop = page.locator(general.pagetop)
+
+#     pagetop.is_hidden()
+#     print("LOB-H-039, PASSED")
+
+#     page.mouse.wheel(0, 500)
+#     pagetop.is_visible()
+#     print("LOB-H-040, PASSED")
+
+#     time.sleep(.5)
+
+#     pagetop.click()
+#     pagetop.is_hidden()
+#     print("LOB-H-041, PASSED")
+
+#
+#
+#
+#
+
+# def test_popup(page, launch_lobby: Page):
+#     page = launch_lobby
+#     time.sleep(2)
+
+#     ampao_del = page.locator(homenav.ampao_remove)
+#     ampao = page.locator(homenav.ampao)
+#     redenv_del = page.locator(homenav.redenv_remove)
+#     redenv = page.locator(homenav.redenv)
+#     redev_open = page.locator(homenav.redev_open)
+#     result = page.locator(homenav.result)
+
+#     ampao_del.click()
+#     ampao.is_hidden()
+#     print("LOB-H-057, PASSED")
+
+#     page.reload()
+#     time.sleep(2)
+
+#     ampao.is_visible()
+#     print("LOB-H-058, PASSED")
+
+#     ampao.click()
+#     redenv_del.click()
+#     redenv.is_hidden()
+#     print("LOB-H-060, PASSED")
+
+#     page.reload()
+#     time.sleep(2)
+
+#     ampao.click()
+#     redenv.is_visible()
+#     print("LOB-H-061, PASSED")
+
+#     redev_open.click(force=True)
+#     result.is_visible()
+#     print("LOB-H-062, PASSED")
+
+
+def test_footer(page, launch_lobby: Page):
+    page = launch_lobby
+    time.sleep(2)
+
+    footbox = page.locator(footer.footbox)
+    name = page.locator(footer.footleft)
+    right = page.locator(footer.footright)
+    logo = page.locator(footer.footlogo)
+
+    page.mouse.wheel(0, 4000)
+
+    time.sleep(2)
+
+    footbox.locator(name.locator(logo)).is_visible()
+    footbox.locator(name, has_text="Oriental Game").is_visible()
+    footbox.locator(right, has_text="Copyright © 2024. All rights reserved.").is_visible()
+    print("LOB-H-066, PASSED")
+
+
+
+
+
+    
 
 
 

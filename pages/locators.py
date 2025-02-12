@@ -1,3 +1,13 @@
+class general:
+    pagetop = "#pagetop"
+
+class footer:
+    footbox = ".ogfooter"
+    footlogo = "#marquee2 > section > div.flex.flex-nowrap.items-center > img"
+    footleft = "#marquee2 > section > div:nth-child(1)"
+    footright = "#marquee2 > section > div:nth-child(2)"
+
+
 class header:
     coin = ".coin.flip-coin"
     balance = "#balance"
@@ -44,4 +54,14 @@ class homenav:
 
     playicon = ".play_icon"
 
-    popularGames = ".gridbox"
+    games = ".gridbox"
+
+    pin = ".fav.absolute.star"
+
+    ampao = "#marquee2 > div:nth-child(4) > div > img"
+    ampao_remove = "#marquee2 > div:nth-child(4) > div > i"
+    redenv_remove = "#promoModal > div.modal-content.modal-promo > div > i"
+    redenv = ".envelope_frontcover_masked"
+    redev_open = "div.envelope-fold > section"
+    result = ".winner_msg"
+
