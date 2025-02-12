@@ -151,33 +151,7 @@ def test_sidebar(page, launch_lobby: Page):
         time.sleep(0.5)
         print(f"LOB-H-{testID}, PASSED")
 
-    # page.locator(sidebar.slots).click()
-    # page.locator(sidebar.og).click()
-    # time.sleep(.5)
-    # print("LOB-H-012, PASSED")
-    # page.locator(sidebar.home).click()
-    # time.sleep(.5)
-    # print("LOB-H-013, PASSED")
-    # page.locator(sidebar.live).click()
-    # time.sleep(.5)
-    # print("LOB-H-014, PASSED")
-    # page.locator(sidebar.slots).click()
-    # time.sleep(.5)
-    # print("LOB-H-015, PASSED")
-    # page.locator(sidebar.sports).click()
-    # time.sleep(.5)
-    # print("LOB-H-016, PASSED")
-    # page.locator(sidebar.promo).click()
-    # time.sleep(.5)
-    # print("LOB-H-017, PASSED")
-    # page.locator(sidebar.history).click()
-    # time.sleep(.5)
-    # print("LOB-H-018, PASSED")
-    # page.locator(sidebar.status).click()
-    # time.sleep(.5)
-    # print("LOB-H-019, PASSED")
     
-
 def test_announcement_bar(page, launch_lobby: Page):
     page = launch_lobby
 
@@ -280,7 +254,6 @@ def test_popular_section(page, launch_lobby: Page):
     
 
     
-
 
 
 

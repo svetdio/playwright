@@ -65,3 +65,12 @@ class homenav:
     redev_open = "div.envelope-fold > section"
     result = ".winner_msg"
 
+class feature:
+    prev = ".carousel__prev"
+    next = ".carousel__next"
+
+    headtext = "#marquee2 > div > section > div:nth-child(1) > h1"
+    carousel = "#marquee2 > div > section > div:nth-child(2)"
+    
+    play = "#feat_live_carousel > div.carousel__viewport > ol > li.carousel__slide.carousel__slide--visible.carousel__slide--next.gridbox_carousel > div > div:nth-child(1) > div.gridbox_thumb_wrap > div > img"
+    game = "#feat_live_carousel > div.carousel__viewport > ol > li.carousel__slide.carousel__slide--visible.carousel__slide--next.gridbox_carousel > div"

@@ -6,17 +6,19 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import time
 from playwright.sync_api import Page, sync_playwright
 from utils import curl
-from pages.locators import sidebar, header, bar, homenav, general, footer
+from pages.locators import sidebar, header, bar, general, footer, feature
 from conftest import launch_lobby
 
 
 def test_header(page, launch_lobby: Page):
     page = launch_lobby
+    time.sleep(2)
 
     account = curl.account[0]
     username = account["username"]
+    
+    page.locator(sidebar.live).click()
 
-    time.sleep(2)
     username = page.locator(f"text=grpdevcny{username}!")
     if username.is_visible():
         print("Username is visible")
@@ -75,8 +77,8 @@ def test_header(page, launch_lobby: Page):
 
 def test_sidebar(page, launch_lobby: Page):
     page = launch_lobby
-
     time.sleep(2)
+
     assert page.locator(sidebar.og).is_visible(), "OG Logo is not visible"
     assert page.locator(sidebar.home).is_visible(), "Home is not visible"
     assert page.locator(sidebar.live).is_visible(), "Live is not visible"
@@ -119,25 +121,54 @@ def test_scroll_button(page, launch_lobby: Page):
     page = launch_lobby
     time.sleep(2)
 
+    page.locator(sidebar.live).click()
+
     pagetop = page.locator(general.pagetop)
 
     pagetop.is_hidden()
-    print("LOB-L-039, PASSED")
+    print("LOB-L-018, PASSED")
 
     page.mouse.wheel(0, 500)
     pagetop.is_visible()
-    print("LOB-L-040, PASSED")
+    print("LOB-L-019, PASSED")
 
     time.sleep(.5)
 
     pagetop.click()
     pagetop.is_hidden()
-    print("LOB-L-041, PASSED")
+    print("LOB-L-020, PASSED")
+
+
+def test_feature_live(page, launch_lobby: Page):
+    page = launch_lobby
+    time.sleep(2)
+
+    page.locator(sidebar.live).click()
+
+    carousel = page.locator(feature.carousel)
+    game = page.locator(feature.game)
+    play = page.locator(feature.play)
+
+    assert page.locator(feature.headtext, has_text="Featured Live Games").is_visible() and carousel.is_visible(), "Carousel is not visible; Head text is not visible/wrong"
+    print("LOB-L-021, PASSED")
+
+    page.locator(feature.prev).click()
+    print("LOB-L-022, PASSED")
+  
+    page.locator(feature.next).click()
+    print("LOB-L-023, PASSED")
+    
+    game.hover(force=True)
+    if play.is_visible():
+        play.click()
+    print("LOB-H-024, PASSED")
 
 
 def test_footer(page, launch_lobby: Page):
     page = launch_lobby
     time.sleep(2)
+
+    page.locator(sidebar.live).click()
 
     footbox = page.locator(footer.footbox)
     name = page.locator(footer.footleft)
@@ -151,7 +182,7 @@ def test_footer(page, launch_lobby: Page):
     footbox.locator(name.locator(logo)).is_visible()
     footbox.locator(name, has_text="Oriental Game").is_visible()
     footbox.locator(right, has_text="Copyright © 2024. All rights reserved.").is_visible()
-    print("LOB-L-066, PASSED")
+    print("LOB-L-044, PASSED")
 
 
 
